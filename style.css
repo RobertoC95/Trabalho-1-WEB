@@ -1,0 +1,37 @@
+.navbar {
+position: fixed;
+}
+.nav-item {
+  font-family: "Jura", sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+}
+.nav-link{
+    color: black !important;
+}
+.hero{
+  position: relative;
+  text-align: center;
+  color: white !important;
+  font-family: "Josefin Slab", serif;
+  font-size: 100px;
+  font-weight: 600;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space:nowrap;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    background-color: rgba(180, 155, 44, 0.25);
+    padding: 50px;
+    border-radius: 10px;
+}
