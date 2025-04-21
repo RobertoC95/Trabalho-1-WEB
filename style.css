@@ -1,13 +1,19 @@
+body, html{
+  margin: 0;
+  padding: 0;
+}
 .navbar {
-position: fixed;
+  position: fixed;
 }
 .nav-item {
   font-family: "Jura", sans-serif;
   font-size: 26px;
   font-weight: 600;
+  padding-top: 1px;
+  position:absolute;
 }
 .nav-link{
-    color: black !important;
+  color: black !important;
 }
 .hero{
   position: relative;
@@ -16,22 +22,61 @@ position: fixed;
   font-family: "Josefin Slab", serif;
   font-size: 100px;
   font-weight: 600;
+  z-index: -1;
 }
 .centrado{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    white-space:nowrap;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space:nowrap;
 }
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+.viva{
+  font-size: 50px;
 }
-.container{
+.container1 {
     width: 100%;
     background-color: rgba(180, 155, 44, 0.25);
-    padding: 50px;
-    border-radius: 10px;
+    padding: 100px;
+    height: 400px;
+} 
+.Trabalho{
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+.escritorio{
+  background-color: #1e1e1e;
+  height: 400px;
+}
+.descubra{
+  color: white !important;
+  position: relative;
+  text-align: center;
+  top:50%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.descobrir{
+  margin: 20px;
+}
+.seta{
+  border: 5px;
+  color: white !important;
+}
+#seta{
+  font-size: 30px;
+}
+.destinos{
+  background-color: rgba(180, 155, 44, 0.25) ;
+  height: 400px;
+}
+.btblog{
+  padding: 100px 50px;
+}
+.footer{
+  background-color: #1e1e1e;
+  text-align: center;
+  color: white;
+  padding: 40px;
 }
