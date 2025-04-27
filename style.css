@@ -8,7 +8,7 @@ body, html{
   display: flex;
   width: 100%;
   gap: 10px;
-
+  z-index: 10;
 }
 
 .nav-item {
@@ -27,7 +27,7 @@ body, html{
 
 .hero{
   height: 100vh;
-  background-image: url("img/imagem1.png");
+  background-image: url("img/Hero.png");
   background-size: auto;
   position: relative;
   text-align: center;
@@ -35,7 +35,7 @@ body, html{
   font-family: "Josefin Slab", serif;
   font-size: 100px;
   font-weight: 600;
-  z-index: -1;
+  z-index: 0;
 }
 .living{
   position: absolute;
