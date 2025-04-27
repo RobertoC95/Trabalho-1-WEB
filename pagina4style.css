@@ -1,0 +1,118 @@
+body, html{
+    margin: 0;
+    padding: 0;
+  }
+  .navDireita {
+    position: relative;
+    justify-content: flex-end;
+    display: flex;
+    width: 100%;
+    gap: 10px;
+  }
+  .navbar{
+    pointer-events: auto;
+    position: relative;
+    z-index: 10;
+  }
+  
+  .nav-item {
+    
+    font-family: "Jura", sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    padding-top: 1px;
+  }
+  
+  .nav-link{
+    color: black !important;
+    cursor: pointer;
+    pointer-events: auto;
+  }
+  
+  .hero{
+    height: 100vh;
+    background-image: url("img/orangeVan.png");
+    background-size: auto;
+    position: relative;
+    text-align: center;
+    color: white !important;
+    font-family: "Josefin Slab", serif;
+    font-size: 100px;
+    font-weight: 600;
+    z-index: 0;
+  }
+  .container-fluid{
+    background-color: #1e1e1e ;
+    opacity: .75;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: left;
+    width: 100%;
+    height: 160px;
+    margin-left: 0;
+    margin-right: 0;
+    text-justify: center;
+  }
+  #office{
+    font-family: "Josefin Slab", serif;
+    color: white;
+    font-size: 80px;
+  }
+  .grid-container{
+    background-color: rgba(180, 155, 44, 0.25);
+    display: grid;
+    grid-template-columns: repeat(auto-fit,574px);
+    justify-content: center;
+    gap:100px;
+    padding: 100px;
+  }
+  .cartao1{
+    background-color: white;
+    padding: 20px;
+    align-self: center;
+    box-shadow: 7px 7px grey;
+    border-radius: 35px;
+  }
+  .imagemcartao{
+    padding-top: 10px;
+    width: 100%;
+    border-radius: 35px;
+  }
+  h3{
+    font-family: Jura;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 118%;
+    letter-spacing: 0%;
+  }
+
+  .info-button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    color: black;
+}
+.btn-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  .footer{
+    background-color: #1e1e1e;
+    text-align: center;
+    color: white;
+    padding: 40px;
+    font-size: 30px;
+    font-family: "Jura", sans-serif;
+  }
+  #cesae{
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+  }

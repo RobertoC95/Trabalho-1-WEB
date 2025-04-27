@@ -3,19 +3,32 @@ body, html{
   padding: 0;
 }
 .navbar {
-  position: fixed;
+  position: relative;
+  justify-content: flex-end;
+  display: flex;
+  width: 100%;
+  gap: 10px;
+
 }
+
 .nav-item {
+  
   font-family: "Jura", sans-serif;
   font-size: 26px;
   font-weight: 600;
   padding-top: 1px;
-  position:absolute;
+  padding: 1px, 0px, 0px, 4px;
 }
+
 .nav-link{
   color: black !important;
+  display: flex;
 }
+
 .hero{
+  height: 100vh;
+  background-image: url("img/imagem1.png");
+  background-size: auto;
   position: relative;
   text-align: center;
   color: white !important;
@@ -24,41 +37,80 @@ body, html{
   font-weight: 600;
   z-index: -1;
 }
-.centrado{
+.living{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   white-space:nowrap;
 }
-.viva{
-  font-size: 50px;
+.container1{
+  width: 100%;
+  background-color: rgba(180, 155, 44, 0.25);
+  padding: 100px;
+  height: 515px;
+  display: flex;
+  align-items: stretch;
+  width: 1440px;
 }
-.container1 {
-    width: 100%;
-    background-color: rgba(180, 155, 44, 0.25);
-    padding: 100px;
-    height: 400px;
+.viva{
+  font-size: 43px;
+  flex: 1;
+  align-items: center;
+  font-family: Jura;
+  font-weight: 400;
+  line-height: 118%;
+  letter-spacing: 20%;
+  justify-content: center;
+  Width:575px;
+  Height:152px;
+  top:1025px;
+  Left:87px;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
 } 
-.Trabalho{
+.viva1{
+  padding-top: 209px;
+}
+.divider{
+  width: 2px;
+  background-color: #1e1e1e !important;
+  height: auto;
+}
+
+.trabalhos{
+  font-family: Jura;
   font-size: 30px;
   text-align: center;
-  font-weight: bold;
+  font-weight: 700;
+  flex: 1;
+  line-height: 118%;
+  letter-spacing: 0%;
 }
+.indeed{
+font-family: Jura;
+font-weight: 700;
+Size: 20px;
+line-height: 118%;
+Letter-spacing: 0%;
+}
+.greeVan{
+  height: 515px;
+  z-index: -1;
+}
+
 .escritorio{
   background-color: #1e1e1e;
-  height: 400px;
+  height: 515px;
+  top: 1385px;
+
 }
 .descubra{
   color: white !important;
   position: relative;
   text-align: center;
   top:50%;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-.descobrir{
-  margin: 20px;
 }
 .seta{
   border: 5px;
@@ -69,14 +121,22 @@ body, html{
 }
 .destinos{
   background-color: rgba(180, 155, 44, 0.25) ;
-  height: 400px;
-}
-.btblog{
-  padding: 100px 50px;
+  color: black;
+  position: relative;
+  text-align: center;
+  top:50%;
 }
 .footer{
   background-color: #1e1e1e;
   text-align: center;
   color: white;
   padding: 40px;
+  font-size: 30px;
+  font-family: "Jura", sans-serif;
+}
+#cesae{
+  font-size: 15px;
+}
+h3{
+  
 }

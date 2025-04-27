@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pagina1</title>
     <!--googlefonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,73 +16,82 @@
 </head>
 <body>
 
-  <!--Navbar-->
+   <!--Navbar-->
+   <!--imagem hero-->
 
-  <div class>
-    <ul class="nav justify-content-end">
-        <li class="nav-item ">
-          <a class="nav-link active" aria-current="page" href="#">Acomodação    </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Locais</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Blog</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" aria-disabled="true">Contactos</a>
-        </li>
-      </ul>
+<div class="hero">
+  <nav class="navbar">
+    <ul class="nav justify-content-end  navbar">
+      <li class="nav-item" style="padding-right: 20px;">
+        <a class="nav-link active " aria-current="page" href="#">Acomodação    </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Locais</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" aria-disabled="true">Contactos</a>
+      </li>
+    </ul>
+  </nav>
 
-  <!--imagem hero-->
-
-  </div>
-  <div class="hero">
-    <img class="hero" src="img/imagem1.png" alt="hero" style="height:100%; width:100%;">
-    <div class="centrado">LIVING AROUND</div>
-  </div>
-
-  <!--container-->
-  <div class="container-fluid container1">
-    <div class = row>
-
-      <!--esquerda-->
-      <div class="col-6 viva">Viva <span style="color:#686931 ;">livre</span>, trabalhe de qualquer lugar, descubra o <span style="color:#686931 ;">mundo</span>.</div>
-
-      <!--direita-->
-      <div class="col-6">
-          <div class="col-12">
-            Trabalhos Remotos
-          </div>
-      </div>
-
-      <!--listas-->
-        
-      <div class="row">
-        <div class="col-6">
-          <p>Indeed</p>
-          <p>Indeed</p>
-          <p>Indeed</p>
-          <p>Indeed</p>
-        </div>
-        <div class="col-6">
-          <p>Indeed</p>
-          <p>Indeed</p>
-          <p>Indeed</p>
-          <p>Indeed</p>
-        </div>
-    </div>
-  </div>
+  <!--texto primeira imagem-->
+  <div class="living">LIVING AROUND</div>
 </div>
 
   <!--container-->
+<div class="container-fluid container1">
+
+  <!--esquerda-->
+<div class="viva"> <!--Viva <span style="color:#686931 ;">livre</span>, trabalhe de qualquer lugar, descubra o <span style="color:#686931 ;">mundo</span>.-->
+    <div class="viva1">
+      <div>Viva <span style="color:#686931 ;">livre</span>, trabalhe</div>
+      <div>de qualquer lugar,</div>
+      <div>descubra o <span style="color:#686931 ;">mundo</span></div>
+    </div>
+</div>
+
+      <!--divider-->
+
+  <div class="divider"></div>
+
+      <!--direita-->
+  <div class="trabalhos">
+    <div class="col-12">Trabalhos Remotos</div>
+
+      <!--listas-->
+  <div class="boxLista">
+      <div>
+        <div class="row">
+          <div class="col-3">
+          <p>Indeed</p>
+          <p>LinkedIn</p>
+          <p>JobRemote</p>
+          <p>GoogleJobs</p>
+          </div>
+          <div class="col-3"></div>
+          <div class="col-3">
+          <p>Indeed</p>
+          <p>LinkedIn</p>
+          <p>JobRemote</p>
+          <p>GoogleJobs</p>
+          </div>
+          <div class="col-3"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!--container-->
   <div class="container-fluid container2">
     <div class = row>
-      <div class="col-6 col-md-5 imagem2"> <img src="img\pexels-gya-den-768256-2303781 2.png" alt="pforma" style="height: 100%; width: 100%;"> </div>
+      <div class="col-6 col-md-5 greeVan"> <img src="img\img2.png" style="height: 100%; width: 100%;"> </div>
       <div class = "col-6 col-md-7 escritorio"> 
         <h1 class="descubra">Descubra o seu novo escritório <br> 
-        <p class="d-inline-flex gap-1">
-          <a href="#" class="btn active" role="button" data-bs-toggle="button" aria-pressed="true">Descobrir</a>
+        <p class="d-inline-flex">
+          <a href="#" class="btn active" role="button" data-bs-toggle="button">Descobrir</a>
         </p>
         <div class="d-flex justify-content-end">
           <button type="button seta" class="btn btn-outline-light rounded-circle seta"
@@ -101,7 +110,7 @@
   <div class="container-fluid container3">
     <div class = row>
       <div class="col-6 destinos"> 
-        <h1 class="descubra">Temos destinos especiais para você <br> 
+        <h1 class="destinos">Temos destinos especiais para você <br> 
           <p class="d-inline-flex gap-1">
             <a href="#" class="btn active" role="button" data-bs-toggle="button" aria-pressed="true">Explorar</a>
           </p>
@@ -131,10 +140,10 @@
 <footer>
   <div class="footer">
     <h1>Living Around</h1>
-    <button class="instagram-btn">
-      <i class="fab fa-instagram"></i>
-    </button>
-    <h2>Power by Cesae Digital</h2>
+    <button class="instagram-btn" ></button>
+    <button class="instagram-btn" ></button>
+    <button class="instagram-btn" ></button>
+    <h2 id="cesae">Power by Cesae Digital</h2>
   </div>
 </footer>
 </html>

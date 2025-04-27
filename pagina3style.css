@@ -1,0 +1,71 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    height:100%;
+  }
+  .navbar {
+    position: relative;
+    justify-content: flex-end;
+    display: flex;
+    width: 100%;
+    gap: 10px;
+  
+  }
+  
+  .nav-item {
+    
+    font-family: "Jura", sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    padding-top: 1px;
+    padding: 1px, 0px, 0px, 4px;
+  }
+  
+  .nav-link{
+    color: white !important;
+    display: flex;
+  }
+  
+  .imagem3{
+    background-image: url(img/img3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    z-index: -1;
+  }
+  .form{
+    width: 467px;
+    height: 600px;
+    font-family: "Jura", sans-serif;
+    font-size: 20px;
+    background-color: black;
+    border-radius: 30px;
+    text-align: left;
+    color: white !important;
+    padding: 70px;
+    margin-left: 187px;
+    margin-top: 100px;
+  }
+  .button{
+    width: 338px;
+  }
+  input{
+    height:76px;
+    width: 338px;
+    border-radius: 15px;
+  }
+  textarea{
+    width: 338px;
+    height: 101px;
+    border-radius: 15px;
+  }
+  .popup{
+    width: 741px;
+    height: 192px;
+    background-color: white;
+    padding: 60px;
+    margin-left: 349px;
+    margin-top: 68px;
+    border-radius: 35px;
+  }

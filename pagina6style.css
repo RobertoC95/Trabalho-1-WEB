@@ -1,0 +1,83 @@
+body, html{
+    margin: 0;
+    padding: 0;
+  }
+  .navDireita {
+    position: relative;
+    justify-content: flex-end;
+    display: flex;
+    width: 100%;
+    gap: 10px;
+  }
+  .navbar{
+    pointer-events: auto;
+    position: relative;
+    z-index: 10;
+  }
+  
+  .nav-item {
+    
+    font-family: "Jura", sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    padding-top: 1px;
+  }
+  
+  .nav-link{
+    color:white !important;
+    cursor: pointer;
+    pointer-events: auto;
+  }
+  
+  .hero{
+    height: 100vh;
+    background-image: url("img/pexels-alex-andrews-271121-1203808 2.png");
+    background-size: auto;
+    position: relative;
+    text-align: center;
+    color: white !important;
+    font-family: "Josefin Slab", serif;
+    font-size: 100px;
+    font-weight: 600;
+    z-index: 0;
+  }
+  .card-container{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-top: 71px;
+  }
+  .cartao{
+    width: 466px;
+    height: 542px;
+    background-color: white;
+    border-radius: 35px;
+    overflow: hidden;
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+    margin-left: 122px;
+  }
+  .textoCartao{
+    font-family: "jura";
+    font-weight: 700;
+    line-height: 118%;
+    letter-spacing: 0;
+    text-align: left;
+    font-size: 25px;
+    color: black;
+  }
+
+  .textoCartao .btn{
+    display: inline-block;
+    background-color: #686931;
+    width: 345px;
+  }
+  .textoCartao form {
+    display: flex;
+    flex-direction: column;   
+    gap:50px ;           
+    align-items: left;
+    padding-top: 100px;      
+  }
+  
